@@ -1,7 +1,12 @@
 import React from "react";
-
+import classNames from "classnames";
+import styles from "./Sidebar.module.scss";
 function Sidebar() {
-  return <div>Sidebar</div>;
+  return (
+    <aside className={styles.wrapper}>
+      <p>Sidebar</p>
+    </aside>
+  );
 }
 
 export default Sidebar;
